@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./component/Header/Header";
+import {Routes, Route, Navigate} from "react-router-dom";
+import tabs from "./tabs.json";
+import LazyLoadComponent from "./component/LazyLoadComponent/LazyLoadComponent";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Header />
+        <main>
+            <Routes>
+                {tabs.map(({id, path}) => (
+                    <Route key={id} path={id} element={<LazyLoadComponent path={path} />}/>
+                ))}
+                <Route index element={<Navigate to={tabs[0].id} />} />
+                <Route path="*" element={<Navigate to={tabs[0].id} />} />
+            </Routes>
+        </main>
     </div>
   );
 }
