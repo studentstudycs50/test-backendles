@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/test-backendles/static/css/main.e6c13ad2.css",
+    "main.js": "/test-backendles/static/js/main.bef02239.js",
+    "static/js/618.e5c1d42e.chunk.js": "/test-backendles/static/js/618.e5c1d42e.chunk.js",
+    "static/js/896.3eae28b6.chunk.js": "/test-backendles/static/js/896.3eae28b6.chunk.js",
+    "static/js/635.c6be99bf.chunk.js": "/test-backendles/static/js/635.c6be99bf.chunk.js",
+    "static/js/834.d036da4d.chunk.js": "/test-backendles/static/js/834.d036da4d.chunk.js",
+    "index.html": "/test-backendles/index.html",
+    "main.e6c13ad2.css.map": "/test-backendles/static/css/main.e6c13ad2.css.map",
+    "main.bef02239.js.map": "/test-backendles/static/js/main.bef02239.js.map",
+    "618.e5c1d42e.chunk.js.map": "/test-backendles/static/js/618.e5c1d42e.chunk.js.map",
+    "896.3eae28b6.chunk.js.map": "/test-backendles/static/js/896.3eae28b6.chunk.js.map",
+    "635.c6be99bf.chunk.js.map": "/test-backendles/static/js/635.c6be99bf.chunk.js.map",
+    "834.d036da4d.chunk.js.map": "/test-backendles/static/js/834.d036da4d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.bef02239.js"
+  ]
+}
